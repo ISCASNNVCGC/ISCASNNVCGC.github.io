@@ -363,8 +363,7 @@ mjx-container[display="true"] + br {
 <ul>
 <li>The docker file should have the capability of encoding the test sequences to generate VTM-compatible bitstreams.</li>
 <li>VTM-20.2 decoder is utilized to decode generated bitstreams to get reconstructed YUV files and use those YUV files to calculate the PSNR values. All the generated bitstreams MUST be decoded successfully.</li>
-<li>VTM-20.2 decoder is utilized to decode generated bitstreams to get reconstructed YUV files and use those YUV files to calculate the PSNR values. All the generated bitstreams MUST be decoded successfully.</li>
-<li>VTM-20.2 encoder is utilized as the anchor encoder. For each test point, denote the encoding time of the proposed encoder as T1, and the encoding time of  VTM-20.2 encoder as T2, T1 and T2 should satisfy: T1 &lt;= 30% T2. Note that T1 and T2 shall be evaluated on the same platform (e.g. Intel(R) Xeon(R) Platinum 8336C CPU @ 2.30GHz, NVIDIA A100-SXM4-80GB GPU).</li>
+<li>VTM-20.2 encoder is utilized as the anchor encoder. For each test point, denote the encoding time of the proposed encoder as T1, the encoding time of  VTM-20.2 encoder as T2, T1 and T2 should satisfy: T1 &lt;= 30% T2. Note that T1 and T2 shall be evaluated on the same platform (e.g. Intel(R) Xeon(R) Platinum 8336C CPU @ 2.30GHz, NVIDIA A100-SXM4-80GB GPU).</li>
 </ul>
 <!-- While for the NN enhanced VVC encoder track, the additional requirements are listed as follows:
 1.	The docker file shall have the capability of encoding the test sequences to generate VTM-compatible bitstreams.
