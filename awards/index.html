@@ -18,7 +18,7 @@
     
     <title>
         
-            submission |
+            awards |
         
         Grand Challenge
     </title>
@@ -45,7 +45,119 @@
     KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
     KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"};
   </script>
-<meta name="generator" content="Hexo 6.3.0"></head>
+<meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
 
 
 <body>
@@ -103,7 +215,7 @@
                         </li>
                     
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/submission"
                             >
                                 SUBMISSION
@@ -173,7 +285,7 @@
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/submission">SUBMISSION</a>
                 </li>
             
@@ -219,51 +331,73 @@
         
         <div class="page-template-content keep-markdown-body">
             
-                <!-- # <b><span style="color:#1E90FF;">Registration</span></b>
-Before you can submit your code, you need to register using this form. <b>We only accept submissions from registered teams. </b>
-<div class="signupFrm">
-    <form action="https://getform.io/f/1c9d97f9-13a5-4e70-99b7-674f31874a17" class="form" method="POST">
-      <div class="inputContainer">
-        <input type="text" class="input" placeholder="input" name="name">
-        <label for="" class="label">Team name</label>
-      </div>
-      <div class="inputContainer">
-        <input type="text" class="input" placeholder="input" name="email">
-        <label for="" class="label">Team members name</label>
-      </div>
-      <div class="inputContainer">
-        <input type="text" class="input" placeholder="input" name="phone">
-        <label for="" class="label">Email</label>
-      </div>
-      <div class="inputContainer">
-        <input type="text" class="input" placeholder="input" name="institute">
-        <label for="" class="label">Affiliation</label>
-      </div>
-      <input type="submit" class="submitBtn" value="Register">
-    </form>
-  </div>
-
-# <b><span style="color:#1E90FF;">Download</span></b>
-Download the code package and follow the [<b>README</b>](/download/README.pdf) document to begin your competition! Please feel free to send emails to us if you have any questions about the package. This package can only be used for participating the 2023 MMSys MPD grand challenge. Any commercial use of this package is strictly prohibited. All rights are reserved by ByteDance. (Note: if you are using an arm architecture device such as Apple macbook with M2 chip, please follow the recommendation in the [FAQ](https://mmsysgc23.github.io/faq/) page.)
-
-[<b class="downloadBtn">Click here to download source code!</b>](/download/mmsys23-version-0.6-20230414.tar.gz)
-
-
-You can use our provided Mininet script for thorough local testing of the algorithm to ensure that its behavior meets expectations. The compressed package includes various network topology scripts and related instructions.
-
-[<b class="downloadBtn">Mininet testing scripts</b>](/download/mmsysgc-mininet-test-scripts.zip)
-
-# <b><span style="color:#1E90FF;">Test Submission</span></b>
-We accept test submissions via email. Please send your submission to wanghaiping.paloma@bytedance.com. Please title your email with <b>TEST-[your team name]</b> as prefix. You need to set up a publicly accessible github repo and tell us in the submission email which version you want to test. Please do not include any binary executables in your project repo. If you use any third-party libraries, please provide the official download links to the library file you use in the README file. For security reasons, we will not run your program if we cannot verify the authenticity of the library files used in the project. 
-
-Upon receiving the test submission, we will import your algorithm into a video streaming android app project, deploy the app on a real phone device, download a set of video files from our test platform, return the program logs to the participant. If the test process fails for any reason, we will provide feedback and help you fix the issue. Since the test performance may easily be affected by real-world network traffic, we will run a sample application simultaneously with your test application so that you can use the performance result of the sample application as a reference. 
-
-You can usually expect results of your test submission within 24 hours during weekdays. Submissions during weekends in our time zone (GMT +8) may incur more delays. We try not to limit the frequency of your submission. Please understand that we have to manually process everyone's test requests at this stage. We may have to add limitations, extend response time, or even skip some piled requests during the challenge if the number of received requests overwhelms our available resources. Please plan your development ahead and don't wait until the last few days.
-
-# <b><span style="color:#1E90FF;">Final Submission</span></b>
-Please use <b>FINAL-[your team name]</b> as the prefix of your final submission email and send to wanghaiping.paloma@bytedance.com. The cutoff time is 23:59 pm AOE. Please keep in mind that we will not contact you if your final submission cannot compile or fails to run. Thus, it is highly recommended that every contestant should submit at least once before the final submission to avoid test failure caused by unexpected errors.
-
-Note that we have updated the requirement for final submission. You no longer need to include a paper with your algorithm. The top three teams are invited to write a technical paper ([ACM style format](https://www.acm.org/publications/proceedings-template), no more than 6 pages excluding references) to describe how you design the algorithm, which will be included in the MMSys conference proceedings. -->
+                <h1 id="2024"><a href="#2024" class="headerlink" title="2024"></a><b><span style="color:#1E90FF;">2024</span></b></h1><p><b><span style="color:#1E90FF;">Hybrid track top performance award</span></b></p>
+<ul>
+<li>Team name: CTU</li>
+<li>Team member: Meng Wang, Feng Xing, Yingwen Zhang, Shiqi Wang, Shanshe Wang and Siwei Ma</li>
+<li>BD-rate compared with HEVC, RA:  -55.55%</li>
+</ul>
+<p><img src="/images/2024hybrid.jpg" alt="picture"></p>
+<p><b><span style="color:#1E90FF;">End-to-end track top performance award</span></b></p>
+<ul>
+<li>Team name: OptiBlend</li>
+<li>Team member: Rongqun Lin, Jiancong Chen, Meng Wang, Sam Kwong, Siwei Ma, Shanshe Wang and Shiqi Wang</li>
+<li>BD-rate compared with HEVC, RA:  -28.44%</li>
+</ul>
+<p><img src="/images/2024nn.jpg" alt="picture"></p>
+<p><b><span style="color:#1E90FF;">VVC encoder track top performance award</span></b></p>
+<ul>
+<li>Team name: RateRapid</li>
+<li>Team member: Yingwen Zhang, Feng Xing, Zhenhao Sun, Riyu Lu, Xi Xie, Xiaopeng Fan, Shanshe Wang, Shiqi Wang and Meng Wang</li>
+<li>BD-rate compared with VVC, RA:  -1.59%</li>
+</ul>
+<p><img src="/images/2024enc.jpg" alt="picture"></p>
+<p><b><span style="color:#1E90FF;">Top Creativity award</span></b></p>
+<ul>
+<li>Paper name: VQNeRV: Vector Quantization Neural Representation for Video Compression</li>
+<li>Authors: Gai Zhang, Lv Tang, Xinfeng Zhang</li>
+</ul>
+<p><img src="/images/2024creative.jpg" alt="picture"></p>
+<h1 id="2023"><a href="#2023" class="headerlink" title="2023"></a><b><span style="color:#1E90FF;">2023</span></b></h1><p><b><span style="color:#1E90FF;">Hybrid track top performance award</span></b></p>
+<ul>
+<li>Team name: DWH</li>
+<li>Team member: Yanchen Zhao, Suhong Wang, Kai Lin, Meng Lei, Chuanmin Jia, Shanshe Wang, and Siwei Ma</li>
+<li>BD-rate compared with HEVC, RA:  -49.04%</li>
+</ul>
+<p><img src="/images/2023hybrid.png" alt="picture"></p>
+<p><b><span style="color:#1E90FF;">End-to-end track top performance award</span></b></p>
+<ul>
+<li>Team name: USTC-iVC</li>
+<li>Team member: Xihua Sheng, Li Li, and Dong Liu </li>
+<li>BD-rate compared with HEVC, RA:  2.36%</li>
+</ul>
+<p><img src="/images/2023nn.png" alt="picture"></p>
+<p><b><span style="color:#1E90FF;">Top Creativity award</span></b></p>
+<ul>
+<li>Paper name: Learned Hierarchical B-Frame Coding with Adaptive Feature Modulation for YUV 4:2:0 Content </li>
+<li>Authors: Mu-Jung Chen, Hong-Sheng Xie, Cheng Chien, Wen-Hsiao Peng, and Hsueh-Ming Hang</li>
+</ul>
+<p><img src="/images/2023creative.png" alt="picture"></p>
+<h1 id="2022"><a href="#2022" class="headerlink" title="2022"></a><b><span style="color:#1E90FF;">2022</span></b></h1><p><b><span style="color:#1E90FF;">Hybrid track top performance award</span></b></p>
+<ul>
+<li>Team name: Codec123</li>
+<li>Team member: Xue Zhang, Dong Jiang, Jucai Lin, and Jun Yin</li>
+<li>BD-rate compared with HEVC, RA:  -40.49%</li>
+</ul>
+<p><img src="/images/2022hybrid.png" alt="picture"></p>
+<p><b><span style="color:#1E90FF;">End-to-end track top performance award</span></b></p>
+<ul>
+<li>Team name: NYCU_MAPL</li>
+<li>Team member: Yung-Han Ho, Chih-Hsuan Lin, Peng-Yu Chen, Mu-Jung Chen, Chih-Peng Chang, Wen-Hsiao Peng, and Hsueh-Ming Hang </li>
+<li>BD-rate compared with HEVC, RA:  170.57%</li>
+</ul>
+<p><img src="/images/2022nn.png" alt="picture"></p>
+<p><b><span style="color:#1E90FF;">Top Creativity award</span></b></p>
+<ul>
+<li>Paper name: Wavelet-Based Learned Scalable Video Coding</li>
+<li>Authors: Cunhui Dong, Haichuan Ma, Dong Liu, and John W. Woods</li>
+</ul>
+<p><img src="/images/2022creative.png" alt="picture"></p>
 
             
         </div>
