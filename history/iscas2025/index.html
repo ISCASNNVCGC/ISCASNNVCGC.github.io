@@ -18,7 +18,7 @@
     
     <title>
         
-            awards |
+            Challenge |
         
         Grand Challenge
     </title>
@@ -241,7 +241,7 @@ mjx-container[display="true"] + br {
                         </li>
                     
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/awards"
                             >
                                 AWARDS
@@ -249,7 +249,7 @@ mjx-container[display="true"] + br {
                         </li>
                     
                         <li class="menu-item">
-                            <a class=""
+                            <a class="active"
                                href="/history"
                             >
                                 HISTORY
@@ -302,12 +302,12 @@ mjx-container[display="true"] + br {
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/awards">AWARDS</a>
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class=""
+                    <a class="active"
                        href="/history">HISTORY</a>
                 </li>
             
@@ -333,100 +333,62 @@ mjx-container[display="true"] + br {
         
         <div class="page-template-content keep-markdown-body">
             
-                <h2 id="2025"><a href="#2025" class="headerlink" title="2025"></a><b><span style="color:#1E90FF;">2025</span></b></h2><p><b><span style="color:#1E90FF;">Hybrid track top performance award</span></b></p>
+                <h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a><b><span style="color:#1E90FF;">Abstract</span></b></h2><p>Recently, there is increasing interest in neural network-based (NN-based) video coding, including hybrid, end-to-end, and NN enhanced schemes. To foster the research in this emerging field and provide a benchmark, we propose this Grand Challenge (GC). In this GC, different neural network-based coding schemes will be evaluated according to their coding efficiency and innovations in methodologies. Three tracks will be evaluated, including: </p>
 <ul>
-<li>Team name: BVI_Hybrid</li>
-<li>Team member: Yuxuan Jiang, Qiang Zhu, Siyue Teng, Fan Zhang, Shuyuan Zhu, Bing Zeng and David Bull</li>
-<li>BD-rate compared with HEVC, RA:  -64.36%</li>
+<li>hybrid neural network-based video codec, </li>
+<li>end-to-end video codec,</li>
+<li>neural network enhanced VVC encoder.</li>
 </ul>
-<p><img src="/images/2025hybrid.jpg" alt="picture"></p>
-<p><b><span style="color:#1E90FF;">End-to-end track top performance award</span></b></p>
+<p>In the hybrid codec track, deep network-based coding tools shall be used with traditional video coding schemes. In the end-to-end codec track, the whole video codec system shall be built primarily upon deep networks. In the neural network enhanced VVC encoder track, deep network-based encoding algorithms can be applied in a VVC encoder which generates VVC compatible bitstreams.</p>
+<p>Participants shall express their interest to participate in this Grand Challenge following the <a href="/participation">participation</a> instruction and are invited to submit their schemes as ISCAS papers. The papers will be regularly reviewed and, if accepted, must be presented at ISCAS 2025. The submission instructions for Grand Challenge papers will be communicated by the organizers. Please contact Dr. Yue Li (<a class="link" href="mailto:&#x79;&#x75;&#101;&#x2e;&#x6c;&#x69;&#x40;&#98;&#121;&#x74;&#x65;&#x64;&#97;&#x6e;&#x63;&#101;&#x2e;&#99;&#111;&#109;">yue.li@bytedance.com<i class="fas fa-external-link-alt"></i></a>) for more information.</p>
+<!-- For any inquiries on this Grand Challenge, please contact Dr. Yue Li (yue.li@bytedance.com). -->
+
+<!-- If you have any questions about the challenge, please send an email to the organizer Dr Yue. Li. -->
+
+<!-- Participants shall express their interest to participate in this Grand Challenge by sending an email to the organizer Dr. Yue Li and are invited to submit their schemes as ISCAS papers. The papers will be regularly reviewed and, if accepted, must be presented at ISCAS 2025. The submission instructions for Grand Challenge papers will be communicated by the organizers. -->
+
+<h2 id="Rationale"><a href="#Rationale" class="headerlink" title="Rationale"></a><b><span style="color:#1E90FF;">Rationale</span></b></h2><p>In recent years, deep learning-based image/video coding schemes have achieved remarkable progress. As two representative approaches aiming at future video codec schemes, hybrid solutions and end-to-end solutions have both been investigated extensively. Hybrid solutions adopt deep network-based coding tools to enhance traditional video coding schemes while end-to-end solutions build the whole compression scheme based on deep networks. Besides, NN-based methods are also widely studied to optimize or speed up encoders compliant to existing popular standards such as HEVC, VVC. Although great advancement has been observed, there are still numerous challenges remaining to be addressed:</p>
 <ul>
-<li>Team name: NewbeeDVC</li>
-<li>Team member: Yongcun Hu, Yingzhen Zhai and Jixiang Luo</li>
-<li>BD-rate compared with HEVC, RA:  -7.77%</li>
+<li>How to harmonize a deep coding tool with a hybrid video codec, for example, how to take compression process into consideration when developing a deep tool for pre-processing;</li>
+<li>How to exploit long-term temporal dependency in an end-to-end framework for video coding;</li>
+<li>How to leverage automated machine learning-based network architecture optimization for higher coding efficiency;</li>
+<li>How to perform efficient bit allocation with deep learning frameworks;</li>
+<li>How to achieve a better global result in terms of rate-distortion trade-offs, for example, to take the impact of the current step on later frames into account, possibly by using reinforcement learning;</li>
+<li>How to achieve better complexity-efficiency trade-offs;</li>
+<li>How to speed up a VVC encoder with less coding efficiency loss via NN-based methods or use NN-based preprocessing to enhance the VVC encoding efficiency.</li>
 </ul>
-<p><img src="/images/2025nn.jpg" alt="picture"></p>
-<p><b><span style="color:#1E90FF;">VVC encoder track top performance award</span></b></p>
+<p>In view of these challenges, several activities towards improving deep learning-based image/video coding schemes have been initiated. For example, a special section on “Learning-based Image and Video Compression” was published in TCSVT, July 2020; a special section on “Optimized Image/Video Coding Based on Deep Learning” was published in OJCAS, December 2021; and the “Challenge on Learned Image Compression (CLIC)” has been organized annually since its inception at CVPR in 2018 and now was moved to DCC from 2024. In hopes of encouraging more innovative contributions towards the aforementioned challenges in the ISCAS community, we proposed this grand challenge since 2022. It has been successfully held for three years (<a href="/history/iscas2022">ISCAS 2022</a>, <a href="/history/iscas2023">ISCAS 2023</a>, <a href="/history/iscas2024">ISCAS 2024</a>), attracting related researchers all over the world. As being looked forward by many experts in this area, the grand challenge will be held again for ISCAS 2025, with the same tracks and awards.</p>
+<h2 id="Awards"><a href="#Awards" class="headerlink" title="Awards"></a><b><span style="color:#1E90FF;">Awards</span></b></h2><p>ByteDance will sponsor the awards of this grand challenge. Awards in four tracks are expected to be presented, contingent upon sufficient participants in each category. Three top-performance awards will be granted according to the performance, for the hybrid track, the end-to-end track, and the VVC encoder-only track respectively. In addition, to foster innovation, a top-creativity award will be given to the most inspiring scheme recommended by a committee group, and it is only applicable to participants whose papers are accepted by ISCAS 2025. The winner of each award (if any) will receive a $4375 USD prize.</p>
+<h2 id="Requirements-and-Evaluation"><a href="#Requirements-and-Evaluation" class="headerlink" title="Requirements and Evaluation"></a><b><span style="color:#1E90FF;">Requirements and Evaluation</span></b></h2><h4 id="Training-Data-Set"><a href="#Training-Data-Set" class="headerlink" title="Training Data Set"></a>Training Data Set</h4><p>It is recommended to use the following training data.<br>UVG dataset: <a class="link" target="_blank" rel="noopener" href="http://ultravideo.cs.tut.fi/">http://ultravideo.cs.tut.fi/<i class="fas fa-external-link-alt"></i></a><br>CDVL dataset: <a class="link" target="_blank" rel="noopener" href="https://cdvl.org/">https://cdvl.org/<i class="fas fa-external-link-alt"></i></a><br>Additional training data are also allowed to be used given that they are described in the submitted document.</p>
+<h4 id="Test-Specifications"><a href="#Test-Specifications" class="headerlink" title="Test Specifications"></a>Test Specifications</h4><p>In the test, each scheme will be evaluated with multiple YUV 4:2:0 test sequences in the resolution of 1920x1080.<br>There is no constraint on the reference structure. Note that the neural network must be used in the decoding process of the hybrid track and the end-to-end track, while the VVC reference software VTM will be utilized for decoding bitstreams of the NN enhanced VVC encoder-only track.</p>
+<h4 id="Evaluation-Criteria"><a href="#Evaluation-Criteria" class="headerlink" title="Evaluation Criteria"></a>Evaluation Criteria</h4><p>The test sequences will be released according to the timeline and the results will be evaluated with the following criteria:</p>
 <ul>
-<li>Team name: HKVC</li>
-<li>Team member: Meng Wang, Yingwen Zhang, Feng Xing, Riyu Lu, Shiqi Wang and Sam Kwong</li>
-<li>BD-rate compared with VVC, RA:  -2.40%</li>
+<li>The decoded sequences will be evaluated in the 4:2:0 color format.</li>
+<li>PSNR (6*PSNRY + PSNRU + PSNRV)/8 will be used to evaluate the distortion of the decoded pictures.</li>
+<li>Average Bjøntegaard delta rates (BD-Rate) [1] for all test sequences will be gathered to compare the coding efficiency.</li>
 </ul>
-<p><img src="/images/2025enc.jpg" alt="picture"></p>
-<p><b><span style="color:#1E90FF;">Top Creativity award</span></b></p>
+<p>Anchors of HM 16.22 [2] and VTM-23.2 [3] coded with QPs = {22, 27, 32, 37} under the random access configurations defined in the HM and VTM common test conditions [4, 5] will be provided. Note that the HM anchor is used for the hybrid and end-to-end tracks, while the VTM anchor is used for the VVC encoder-only track. The released anchor data will include the bit-rates corresponding to the four QPs for each sequence.</p>
+<p>Additional constraints for the first two tracks (i.e., the hybrid NN-based and end-to-end video codec) are listed as follows:</p>
 <ul>
-<li>Paper name: EFVC: Error-Propagation-Free Neural Video Coding with Reversible Transform</li>
-<li>Authors: Junqi Liao, Li Li, Dong Liu and Houqiang Li</li>
+<li>It is required that the proposed method should generate four bit-streams for each sequence, targeting the anchor bit-rates corresponding to the four QPs.  For each sequence, the lowest bit-rate point of the proposed method must be in the range of 80% to 110% of the anchor bit-rate at the lowest bit-rate point and the highest bit-rate point of the proposed method must be in the range of 90% to 120% of the anchor bit-rate at the highest bit-rate point;</li>
+<li>Only one single decoder shall be utilized to decode all the bitstreams;</li>
+<li>The intra period in the proposed submission shall be no larger than that used by the anchor in compressing the validation and test sequences.</li>
 </ul>
-<p><img src="/images/2025creative.jpg" alt="picture"></p>
-<h2 id="2024"><a href="#2024" class="headerlink" title="2024"></a><b><span style="color:#1E90FF;">2024</span></b></h2><p><b><span style="color:#1E90FF;">Hybrid track top performance award</span></b></p>
+<p>While for the NN enhanced VVC encoder track, the additional requirements are listed as follows:</p>
 <ul>
-<li>Team name: CTU</li>
-<li>Team member: Meng Wang, Feng Xing, Yingwen Zhang, Shiqi Wang, Shanshe Wang and Siwei Ma</li>
-<li>BD-rate compared with HEVC, RA:  -55.55%</li>
+<li>The docker file shall have the capability of encoding the test sequences to generate VTM-compatible bitstreams;</li>
+<li>It is required that the proposed method should generate four bit-streams for each sequence, targeting at the anchor bit-rates corresponding to the four QPs. For each test point, the bit-rate of the proposed method should be in the range of 90% to 110% of the anchor bit-rate;</li>
+<li>The VTM-23.2 decoder is utilized to decode generated bitstreams to get reconstructed YUV files and use those YUV files to calculate the PSNR values. All the generated bitstreams MUST be decoded successfully;</li>
+<li>The VTM-23.2 encoder is utilized as the anchor encoder. For each test point, denote the encoding time of the proposed encoder as T1, the encoding time of VTM-23.2 encoder as T2, T1 and T2 should satisfy: T1 &lt;= 70% T2. Note that T1 and T2 shall be evaluated on the same platform with single thread (e.g., Intel(R) Xeon(R) Platinum 8336C CPU @ 2.30GHz, NVIDIA A100-SXM4-80GB GPU). Encoding time comparison will be verified by the organizers.</li>
 </ul>
-<p><img src="/images/2024hybrid.jpg" alt="picture"></p>
-<p><b><span style="color:#1E90FF;">End-to-end track top performance award</span></b></p>
+<h4 id="Proposed-Documents"><a href="#Proposed-Documents" class="headerlink" title="Proposed Documents"></a>Proposed Documents</h4><p>A docker container with the executable scheme must be submitted for result generation and cross-check. Each participant is invited to submit an ISCAS paper, which must describe the following items in detail.</p>
 <ul>
-<li>Team name: OptiBlend</li>
-<li>Team member: Rongqun Lin, Jiancong Chen, Meng Wang, Sam Kwong, Siwei Ma, Shanshe Wang and Shiqi Wang</li>
-<li>BD-rate compared with HEVC, RA:  -28.44%</li>
+<li>The methodology;</li>
+<li>The training data set;</li>
+<li>Detailed rate-distortion data (comparison with the provided anchor is encouraged);</li>
+<li>Complexity analysis of the proposed solutions is encouraged for the paper submission.</li>
 </ul>
-<p><img src="/images/2024nn.jpg" alt="picture"></p>
-<p><b><span style="color:#1E90FF;">VVC encoder track top performance award</span></b></p>
-<ul>
-<li>Team name: RateRapid</li>
-<li>Team member: Yingwen Zhang, Feng Xing, Zhenhao Sun, Riyu Lu, Xi Xie, Xiaopeng Fan, Shanshe Wang, Shiqi Wang and Meng Wang</li>
-<li>BD-rate compared with VVC, RA:  -1.59%</li>
-</ul>
-<p><img src="/images/2024enc.jpg" alt="picture"></p>
-<p><b><span style="color:#1E90FF;">Top Creativity award</span></b></p>
-<ul>
-<li>Paper name: VQNeRV: Vector Quantization Neural Representation for Video Compression</li>
-<li>Authors: Gai Zhang, Lv Tang, Xinfeng Zhang</li>
-</ul>
-<p><img src="/images/2024creative.jpg" alt="picture"></p>
-<h2 id="2023"><a href="#2023" class="headerlink" title="2023"></a><b><span style="color:#1E90FF;">2023</span></b></h2><p><b><span style="color:#1E90FF;">Hybrid track top performance award</span></b></p>
-<ul>
-<li>Team name: DWH</li>
-<li>Team member: Yanchen Zhao, Suhong Wang, Kai Lin, Meng Lei, Chuanmin Jia, Shanshe Wang, and Siwei Ma</li>
-<li>BD-rate compared with HEVC, RA:  -49.04%</li>
-</ul>
-<p><img src="/images/2023hybrid.png" alt="picture"></p>
-<p><b><span style="color:#1E90FF;">End-to-end track top performance award</span></b></p>
-<ul>
-<li>Team name: USTC-iVC</li>
-<li>Team member: Xihua Sheng, Li Li, and Dong Liu </li>
-<li>BD-rate compared with HEVC, RA:  2.36%</li>
-</ul>
-<p><img src="/images/2023nn.png" alt="picture"></p>
-<p><b><span style="color:#1E90FF;">Top Creativity award</span></b></p>
-<ul>
-<li>Paper name: Learned Hierarchical B-Frame Coding with Adaptive Feature Modulation for YUV 4:2:0 Content </li>
-<li>Authors: Mu-Jung Chen, Hong-Sheng Xie, Cheng Chien, Wen-Hsiao Peng, and Hsueh-Ming Hang</li>
-</ul>
-<p><img src="/images/2023creative.png" alt="picture"></p>
-<h2 id="2022"><a href="#2022" class="headerlink" title="2022"></a><b><span style="color:#1E90FF;">2022</span></b></h2><p><b><span style="color:#1E90FF;">Hybrid track top performance award</span></b></p>
-<ul>
-<li>Team name: Codec123</li>
-<li>Team member: Xue Zhang, Dong Jiang, Jucai Lin, and Jun Yin</li>
-<li>BD-rate compared with HEVC, RA:  -40.49%</li>
-</ul>
-<p><img src="/images/2022hybrid.png" alt="picture"></p>
-<p><b><span style="color:#1E90FF;">End-to-end track top performance award</span></b></p>
-<ul>
-<li>Team name: NYCU_MAPL</li>
-<li>Team member: Yung-Han Ho, Chih-Hsuan Lin, Peng-Yu Chen, Mu-Jung Chen, Chih-Peng Chang, Wen-Hsiao Peng, and Hsueh-Ming Hang </li>
-<li>BD-rate compared with HEVC, RA:  170.57%</li>
-</ul>
-<p><img src="/images/2022nn.png" alt="picture"></p>
-<p><b><span style="color:#1E90FF;">Top Creativity award</span></b></p>
-<ul>
-<li>Paper name: Wavelet-Based Learned Scalable Video Coding</li>
-<li>Authors: Cunhui Dong, Haichuan Ma, Dong Liu, and John W. Woods</li>
-</ul>
-<p><img src="/images/2022creative.png" alt="picture"></p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a><b><span style="color:#1E90FF;">References</span></b></h2><p>[1] Bjøntegaard, “Calculation of average PSNR differences between RD-Curves,” ITUT SG16/Q6, Doc. VCEG-M33, Austin, Apr. 2001.<br>[2] <a class="link" target="_blank" rel="noopener" href="https://vcgit.hhi.fraunhofer.de/jvet/HM/-/tree/HM-16.22">https://vcgit.hhi.fraunhofer.de/jvet/HM/-/tree/HM-16.22<i class="fas fa-external-link-alt"></i></a>.<br>[3] <a class="link" target="_blank" rel="noopener" href="https://vcgit.hhi.fraunhofer.de/jvet/VVCSoftware_VTM/-/tree/VTM-23.2">https://vcgit.hhi.fraunhofer.de/jvet/VVCSoftware_VTM/-/tree/VTM-23.2<i class="fas fa-external-link-alt"></i></a>.<br>[4] Common Test Conditions and Software Reference Configurations for HM (JCTVC-L1100).<br>[5] VTM and HM common test conditions and software reference configurations for SDR 4:2:0 10 bit video (JVET-AB2010).</p>
 
             
         </div>
